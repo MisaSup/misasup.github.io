@@ -1,0 +1,43 @@
+@media screen and (max-width: 575px) {
+  main {
+    width: 100%;
+    padding: 0 5px 0 5px;
+  }
+
+  .your_symbol {
+    top: 11%;
+    right: 42%;
+  }
+
+  .click_here {
+    left: 10%;
+  }
+
+  .squares_wrapper {
+    padding: 50px 0 50px 0;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(20, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 5px;
+  }
+
+  .end_text {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 415px) {
+  .instr {
+    line-height: 28px;
+  }
+
+  .black_square {
+    width: 50%;
+  }
+
+  .click_here {
+    left: 3%;
+  }
+}
+
+/*# sourceMappingURL=media.css.map */

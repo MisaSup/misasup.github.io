@@ -8,7 +8,7 @@ body {
 }
 
 main {
-    width: 210mm;
+    width: 210mm; 
     margin: 0 auto;
 }
 
@@ -17,6 +17,7 @@ main {
 }
 
 .instr {
+    font-family: 'Vesper Libre', serif;
     font-size: 18px;
 }
 
@@ -92,3 +93,4 @@ main {
     justify-content: center;
     align-items: center;
 }
+
