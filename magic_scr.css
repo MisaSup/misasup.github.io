@@ -16,6 +16,10 @@ main {
     text-align: center;
 }
 
+.instr {
+    font-size: 18px;
+}
+
 .action {
     position: relative;
 }
